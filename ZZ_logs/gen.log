@@ -1,9 +1,0 @@
-2024-01-29 22:07:19,727 - CRITICAL - Script running at 2024-01-29 22:07:19.727354
-2024-01-29 22:07:19,729 - WARNING - The screen size is: Size(width=1920, height=1080)
-2024-01-29 22:07:19,826 - INFO - Selected meme: 940.png
-2024-01-29 22:07:19,900 - INFO - Selected meme: 794.png
-2024-01-29 22:07:19,961 - INFO - Selected meme: 740.png
-2024-01-29 22:07:20,021 - INFO - Selected meme: 1148.png
-2024-01-29 22:07:20,081 - INFO - Selected meme: 822.png
-2024-01-29 22:07:27,466 - INFO - Video created: video.mp4
-2024-01-29 22:07:27,467 - CRITICAL - Script ended at:  2024-01-29 22:07:27.466103
