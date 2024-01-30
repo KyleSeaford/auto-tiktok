@@ -186,6 +186,3 @@ logging.critical("Script running at " + str(datetime.datetime.now()))
 logging.warning(f"The screen size is: {pg.size()}")
 main()
 logging.critical("Script ended at:  " + str(datetime.datetime.now()))
-
-#sendlogTOkyle()
-#time.sleep(5)
