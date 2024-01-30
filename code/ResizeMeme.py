@@ -49,7 +49,7 @@ def resize_and_center(input_folder, output_folder):
                 logging.info(f"Resized and centered: {filename}")
 
 if __name__ == "__main__":
-    input_folder = "memes"
+    input_folder = "meme"
     output_folder = "new_memes"
 
     logging.critical("Starting image resize and center")

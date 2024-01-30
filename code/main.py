@@ -1,3 +1,10 @@
+##############################################################################
+#    ensure the meme folder is in the same directory as this file and that   #
+#    the meme folder has been eddited with "ResizeMeme.py" and that the      # 
+#    folder "new_memes" has been created.                                    #
+#    ensusre all the directories are correct in all scripts                  #
+##############################################################################
+
 import logging
 import os
 import datetime
