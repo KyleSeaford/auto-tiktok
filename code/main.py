@@ -1,7 +1,7 @@
 ##############################################################################
-#    ensure the meme folder is in the same directory as this file and that   #
-#    the meme folder has been eddited with "ResizeMeme.py" and that the      # 
-#    folder "new_memes" has been created.                                    #
+#    ensure the meme folder, genvid.py and emailKYLE_tt.py are in the same   #
+#    directory as this file and that the meme folder has been eddited with   #
+#    "ResizeMeme.py" and that the folder "new_memes" has been created.       #
 #    ensusre all the directories are correct in all scripts                  #
 ##############################################################################
 
@@ -16,8 +16,8 @@ import random
 from genvid  import meme
 from emailKYLE_tt import sendlogTOkyle
 
-wait = 5
-mouse_deration = 0.25 
+wait = 8
+mouse_deration = 1
 
 # Set logging
 logging.basicConfig(level=logging.INFO,
