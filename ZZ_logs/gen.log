@@ -1,0 +1,23 @@
+2024-01-30 21:05:25,142 - CRITICAL - Script running at 2024-01-30 21:05:25.142828
+2024-01-30 21:05:25,143 - WARNING - The screen size is: Size(width=1920, height=1080)
+2024-01-30 21:05:25,218 - INFO - Selected meme: 567.png
+2024-01-30 21:05:25,292 - INFO - Selected meme: 585.png
+2024-01-30 21:05:25,364 - INFO - Selected meme: 850.png
+2024-01-30 21:05:25,436 - INFO - Selected meme: 697.png
+2024-01-30 21:05:25,510 - INFO - Selected meme: 1168.png
+2024-01-30 21:05:27,532 - INFO - Video created: video.mp4
+2024-01-30 21:05:32,834 - INFO - TikTok opened
+2024-01-30 21:05:33,348 - INFO - Meme folder opened
+2024-01-30 21:05:44,074 - INFO - Meme selected
+2024-01-30 21:05:56,123 - INFO - Sound selected
+2024-01-30 21:05:56,123 - INFO - Caption selected: Not a bug, a feature!
+2024-01-30 21:05:57,245 - INFO - Caption cleared
+2024-01-30 21:06:02,577 - INFO - Caption written
+2024-01-30 21:06:02,577 - INFO - Hashtags selected: ['#webdesigner', '#computersciencestudent', '#ProgrammerLife', '#CodeHumor']
+2024-01-30 21:06:18,232 - INFO - Hashtag 1: #webdesigner written
+2024-01-30 21:06:28,916 - INFO - Hashtag 2: #computersciencestudent written
+2024-01-30 21:06:39,590 - INFO - Hashtag 3: #ProgrammerLife written
+2024-01-30 21:06:50,249 - INFO - Hashtag 4: #CodeHumor written
+2024-01-30 21:06:55,353 - INFO - Scrolling down
+2024-01-30 21:07:05,864 - INFO - Post button clicked
+2024-01-30 21:07:06,888 - CRITICAL - Script ended at:  2024-01-30 21:07:06.887129

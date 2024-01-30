@@ -28,7 +28,7 @@ def select_random_meme(folder_path, selected_memes):
     return random_meme
 
 def create_video(selected_memes):
-    meme_folder_path = "new_memes"
+    meme_folder_path = "./meme"
     clips = []
 
     for meme_name in selected_memes:
@@ -43,7 +43,7 @@ def meme():
     selected_memes = []
 
     for _ in range(5):
-        random_meme_name = select_random_meme("memes", selected_memes)
+        random_meme_name = select_random_meme("./meme", selected_memes)
         if random_meme_name:
             selected_memes.append(random_meme_name)
             logging.info(f"Selected meme: {random_meme_name}")

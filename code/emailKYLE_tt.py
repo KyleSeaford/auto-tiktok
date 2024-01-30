@@ -3,19 +3,19 @@ from email.mime.text import MIMEText
 import datetime
 
 def sendlogTOkyle():
-    log = open("Z:\\logs\\autoTT.log", "r")
+    log = open("./ZZ_logs/gen.log", "r")
     now = datetime.datetime.now()
 
     sender = 'contact@kyle-seaford.co.uk'
     receivers = ['projects@kyle-seaford.co.uk']
     smtp_server = 'smtp.ionos.co.uk' 
     smtp_port = 587
-    smtp_username = '' 
-    smtp_password = '' 
+    smtp_username = 'contact@kyle-seaford.co.uk' 
+    smtp_password = 'Ks_contact123' 
 
     # Build the message with MIMEText for proper formatting
-    message = MIMEText(f"See the attached log file for autoIG from {now}\n\n{log.read()}")
-    message['Subject'] = f"autoIG log {now}"
+    message = MIMEText(f"See the attached log file for autoTT from {now}\n\n{log.read()}")
+    message['Subject'] = f"autoTT log {now}"
     message['From'] = sender
     message['To'] = ', '.join(receivers)
 
