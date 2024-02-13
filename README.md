@@ -1,19 +1,20 @@
 # TikTok Auto-Posting Bot with Random Captions and Hashtags
 This script is an automation tool for generating and posting meme videos on TikTok with random captions and hashtags. It uses the PyAutoGUI library to control the mouse and keyboard to interact with the TikTok website.
 
-## Prerequisites
+## Prerequisites - need to do before running
 - The `meme` folder, `genvid.py`, and `emailKYLE_tt.py` should be in the same directory as this file.
--The `meme` folder should be edited with the `ResizeMeme.py` script.
+- The `meme` folder should be edited with the `ResizeMeme.py` script.
 -The `new_memes` folder should be created.
--Ensure all the directories are correct in all scripts.
+- Ensure all the directories are correct in all scripts.
 
 ## Setup
-- Install the required libraries:
-```
+- Install the required libraries 
+- This is the libury that manipulates the mouse and keyboard, be sure to check out my [Pyautogui Reposotory](https://github.com/KyleSeaford/Pyautogui-KS) To Learn More:
+```bash
 pip install pyautogui
 ```
-- Edit the `ResizeMeme.py` script to resize the meme videos to the required dimensions for TikTok.
-- Create a `ZZ_logs` folder in the same directory as this script to store the log files.
+- Edit the `ResizeMeme.py` script to resize the meme videos to the required dimensions for TikTok, It is ster to 1080 x 1920 as default
+- Create a `ZZ_logs` folder (like the one in the reposotiry)  in the same directory as this script to store the log files.
 
 ## Usage
 Run the script, and it will:
