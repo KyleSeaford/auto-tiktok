@@ -33,6 +33,8 @@ def resize_and_center(input_folder, output_folder):
                 new_img = Image.new("RGB", target_size, (0, 0, 0))
                 new_img.paste(resized_img, ((target_size[0] - resized_img.width) // 2, (target_size[1] - resized_img.height) // 2))
 
+# remove the dots at teh bottom for new style of vi
+                """
                 # dots at bottom
                 draw = ImageDraw.Draw(new_img)
                 center_x = target_size[0] // 2
@@ -43,13 +45,15 @@ def resize_and_center(input_folder, output_folder):
                     dot_x = center_x - dot_spacing + (_ * dot_spacing)
                     dot_y = center_y
                     draw.ellipse((dot_x - dot_size, dot_y - dot_size, dot_x + dot_size, dot_y + dot_size), fill=(255, 255, 255))
-
+                """
+                
                 # Save the resized and centered image
                 new_img.save(output_path)
                 logging.info(f"Resized and centered: {filename}")
 
+                
 if __name__ == "__main__":
-    input_folder = "meme"
+    input_folder = "memes"
     output_folder = "new_memes"
 
     logging.critical("Starting image resize and center")
