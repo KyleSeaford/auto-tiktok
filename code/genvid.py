@@ -28,7 +28,7 @@ def select_random_meme(folder_path, selected_memes):
     return random_meme
 
 def create_video(selected_memes):
-    meme_folder_path = "./new_meme"
+    meme_folder_path = "new_memes"
     clips = []
 
     for meme_name in selected_memes:
