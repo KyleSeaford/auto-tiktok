@@ -1,3 +1,5 @@
+# this code dose nothing, i have no clue why but it generates a corrupted video file, not fun
+
 import os
 import random
 import time
@@ -30,7 +32,7 @@ def fade_out(image, fade_duration=4):
         yield new_image
 
 # Set the directory containing memes
-meme_dir = "new_memes"
+meme_dir = "memes"
 
 # Get a list of meme files
 meme_files = [f for f in os.listdir(meme_dir) if f.endswith(('.png', '.jpg', '.jpeg'))]
