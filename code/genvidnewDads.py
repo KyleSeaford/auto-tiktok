@@ -17,11 +17,12 @@ print("images after=", images)
 images = [os.path.join(image_folder, img) for img in images]
 print("images after after=", images)
 
+
 # Make video
 clip = ImageSequenceClip(images, fps=24)  # Change fps for speed
 
 # Add transition between images
-clip = clip.crossfadein(3)  # 1 second crossfade
+clip = clip.crossfadein(5)  # 1 second crossfade
 
 # Write the result to a file
 clip.write_videofile("video.mp4", codec='mpeg4')
