@@ -13,7 +13,7 @@ image_path = os.path.join(image_folder, random.choice(images))
 image_clip = ImageClip(image_path, duration=5).fadein(3)
 
 # Create a 3 second black screen
-black_clip = ColorClip((image_clip.size), col=(0,0,0), duration=0.5)
+black_clip = ColorClip((image_clip.size), col=(0,0,0), duration=0.3)
 
 # Concatenate black screen and image
 video = concatenate_videoclips([black_clip, image_clip])
