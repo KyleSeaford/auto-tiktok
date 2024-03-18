@@ -129,7 +129,7 @@ def writeHashtags():
     "#computer", "#computers", "#computerscience", "#computersciencestudent",
     "#python", "#pythonprogramming", "#pythonprogramminglanguage", "#pythonprogrammer",
     "#code", "#coder", "#codingisfun", "#codingpics", "#c", "#csharp", "#csharpdeveloper",
-    "#meme", "#memes", "#memesdaily", "#memes4days", "#memes4life", "#memes4ever", "#memes4u",
+    "#meme", "#memes", "#memesdaily", "#memes4days", "#memes4life", "#memes4ever", "#memes4u"
     ]
 
     random_hashtags = random.sample(hashtags, 4)  # Select 6 unique hashtags from the list

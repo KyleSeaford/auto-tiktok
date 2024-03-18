@@ -4,7 +4,6 @@ import random
 import logging
 import pyautogui
 
-"""
 
 # Set logging
 logging.basicConfig(level=logging.INFO,
@@ -53,6 +52,3 @@ def meme():
 
     create_video(selected_memes)
     logging.info(f"Video created: video.mp4")
-"""
-
-pyautogui.confirm('Your program is Cool.')
