@@ -10,8 +10,8 @@ def sendlogTOkyle():
     receivers = ['projects@kyle-seaford.co.uk']
     smtp_server = 'smtp.ionos.co.uk' 
     smtp_port = 587
-    smtp_username = 'contact@kyle-seaford.co.uk' 
-    smtp_password = 'Ks_contact123' 
+    smtp_username = '' 
+    smtp_password = '' 
 
     # Build the message with MIMEText for proper formatting
     message = MIMEText(f"See the attached log file for autoTT from {now}\n\n{log.read()}")
